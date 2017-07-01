@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">VehicleTracking</string>
+    <string name="hint_lbl">Please click button to Start location update and to Stop, if already running.</string>
+    <string name="location_update_status_running_lbl">Location update: Running</string>
+    <string name="location_update_status_stopped_lbl">Location update: Not Running</string>
+    <string name="start_button_lbl">Start location update</string>
+    <string name="stop_button_lbl">Stop location update</string>
+
+    <string name="permission_group_label_location">VehicleCurrentLocation</string>
+
+    <string name="permission_group_description_location">Required permission to fetch vehicle\'s current location at regular interval.</string>
+
+    <string name="permission_group_label_storage">LocationDataStorage</string>
+
+    <string name="permission_group_description_storage">Required permission to write location data to file.</string>
+
+    <string name="google_play_service_must">Install or Update Google Play Services to continue using application.</string>
+
+    <string name="location_setting_on_must">Location setting should be On to use this application.</string>
+
+    <string name="location_setting_unknown_error">Could not determine location setting, pl On it to use the application.</string>
+
+    <string name="alert_location_service_running">Location service running, do you really want to stop location update and close application?</string>
+    
+    <string name="permission_rationale_dialog_title">Request for External Storage and Location permission.</string>
+
+    <string name="permission_rationale_explanation">Location permission required to get vehicle position and write to file on External Storage.</string>
+
+    <string name="permission_dialog_grant_lbl">Grant</string>
+
+    <string name="permission_missing">Application requires both External Storage and Location permission. Please allow both permissions to keep using application.</string>
+</resources>
